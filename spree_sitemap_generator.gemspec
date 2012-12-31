@@ -17,4 +17,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency('spree_core', '1.3.0')
   s.add_dependency('sitemap_generator', '~> 3.1.1')
+  s.add_dependency('carrierwave')
+  s.add_dependency('fog')
 end
